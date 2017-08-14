@@ -38,7 +38,7 @@ defmodule HelloPhoenix.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:exrm, "~> 1.0.8"}]
+     {:distillery, "~> 1.4", runtime: false}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
